@@ -94,3 +94,4 @@ Whether an LLM can consistently distinguish a "key" step from a "common-sense" s
 - **Multi-language support:** Accept non-English rulebooks.
 - **Image extraction:** Surface setup diagrams from the PDF alongside text steps.
 - **Sharing:** Export a session as a standalone PDF or shareable link.
+- **Rulebook discovery (#10):** Start from a game name instead of a PDF. BoardGameGeek lookup supplies metadata and expansions only, since BGG file downloads require login. An agentic rulebook search locates the publisher-hosted PDF; the user confirms it before it enters the existing extraction pipeline.
