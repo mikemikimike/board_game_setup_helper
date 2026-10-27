@@ -122,7 +122,7 @@ export default function App() {
       head.append(title, style);
       const body = doc.createElement("body");
       body.append(heading, list);
-      doc.replaceChildren(head, body);
+      doc.documentElement.replaceChildren(head, body);
       w.focus();
       w.print();
     }
